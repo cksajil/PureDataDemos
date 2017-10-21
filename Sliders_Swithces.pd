@@ -1,0 +1,26 @@
+#N canvas 1283 395 621 475 24;
+#X obj 63 100 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 7800 1;
+#X obj 63 264 print vslider;
+#X obj 45 -153 hsl 256 15 0 100 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 6600 1;
+#X obj 42 -102 print vslider;
+#X obj 395 -99 print bng;
+#X obj 395 -160 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 390 -15 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 390 43 print toggle;
+#X obj 120 -6 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+-262144 -1 -1 132 256;
+#X obj 120 40 print number;
+#X obj 318 95 vradio 15 1 0 8 empty empty empty 0 -8 0 10 -262144 -1
+-1 4;
+#X obj 318 264 print vradio;
+#X obj 480 127 vu 15 120 empty empty -1 -8 0 10 -66577 -1 1 0;
+#X connect 0 0 1 0;
+#X connect 2 0 3 0;
+#X connect 5 0 4 0;
+#X connect 6 0 7 0;
+#X connect 8 0 9 0;
+#X connect 10 0 11 0;
