@@ -1,0 +1,17 @@
+#N canvas 553 405 450 300 24;
+#X obj 157 210 bng 35 250 50 0 empty empty empty 17 7 0 10 -262144
+-258113 -1;
+#X obj 214 211 bng 35 250 50 0 empty empty empty 17 7 0 10 -262144
+-4034 -1;
+#X obj 100 210 bng 35 250 50 0 empty empty empty 17 7 0 10 -262144
+-4032 -1;
+#X msg 100 53 4;
+#X msg 192 53 5;
+#X msg 277 53 56;
+#X obj 100 133 route 4 5;
+#X connect 3 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 2 0;
+#X connect 6 1 0 0;
+#X connect 6 2 1 0;
