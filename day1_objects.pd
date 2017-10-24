@@ -1,0 +1,38 @@
+#N canvas 688 197 706 458 24;
+#X floatatom 7 48 5 0 0 0 - - -, f 5;
+#X msg 105 49 message;
+#X obj 305 47 *;
+#X obj 230 48 +;
+#X obj 409 54 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 455 52 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 156 117 int;
+#X obj 312 118 float;
+#X obj 228 111 send;
+#X obj 503 119 receive;
+#X obj 99 194 metro;
+#X obj 368 54 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 11 117 loadbang;
+#X obj 200 189 trigger;
+#X obj 7 263 counter;
+#X obj 12 188 pack;
+#X obj 399 118 unpack;
+#X obj 323 180 line;
+#X obj 422 171 <;
+#X obj 497 172 ==;
+#X obj 242 265 &&;
+#X obj 306 266 osc~;
+#X obj 125 266 phasor~;
+#X obj 12 325 *~;
+#X obj 77 328 dac~;
+#X obj 157 328 adc~;
+#X obj 229 332 sig~;
+#X obj 378 264 env~;
+#X obj 310 331 snapshot~;
+#X obj 448 260 soundfiler;
+#X obj 451 330 openpanel;
+#X obj 587 333 readsf~;
+#X text 21 -1;
+#X text 79 -15 Day 1 objects of the day;
